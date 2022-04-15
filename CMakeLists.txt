@@ -13,9 +13,8 @@ add_subdirectory(src bin)
 set (CPACK_PACKAGE_VERSION_MAJOR    1)
 set (CPACK_PACKAGE_VERSION_MINOR    2)
 set (CPACK_PACKAGE_VERSION_PATCH    3)
-set (CPACK_PACKAGE_CONTACT          "zieckey@gmail.com")
+set (CPACK_PACKAGE_CONTACT          "yejiahang@corp.netease.com")
 set (CPACK_GENERATOR                "TGZ")
-set (CPACK_PACKAGING_INSTALL_PREFIX "/home/weizili/hello")
+#set (CPACK_PACKAGING_INSTALL_PREFIX "/home/yejiahang/hello")
 
 include (CPack)
-
